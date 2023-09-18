@@ -3,6 +3,6 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "mocha ./Mocha"
+    "test": "mocha ./Mocha --reporter nyan"
   }
 }

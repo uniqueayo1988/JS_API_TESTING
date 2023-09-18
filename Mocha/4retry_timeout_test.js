@@ -11,7 +11,7 @@ describe('Retry and Timeouts', function () {
 
   beforeEach(function(done) {
     // hook level timeout
-    this.timeout(5000);
+    this.timeout(500);
     setTimeout(done, 3000);
   })
 
